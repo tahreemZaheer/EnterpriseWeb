@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import about from '../../assets/about/about.png';
-
+import { Footer } from '../Footer/Footer';
 export const Aboutt = () => {
     return (
         <>
@@ -214,6 +214,7 @@ export const Aboutt = () => {
                     </div>
                 </div>
             </section>
+           
         </>
     )
 }

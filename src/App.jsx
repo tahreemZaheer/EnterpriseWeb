@@ -14,16 +14,7 @@ function App() {
 
   return (
     <>
-      <div className='App'>
-        {/* {Components} */}
-        <Navbar/>
-        <Home/>
-        <Aboutt/>
-        <Services/>
-        <Portfolio/>
-        <Contact/>
-        <Footer/>
-      </div>
+      
     </>
   )
 }

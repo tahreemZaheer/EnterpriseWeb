@@ -2,8 +2,7 @@ import React, {useState,useEffect} from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import logo from '../../assets/logo/logo.jpg';
-import { Link } from 'react-scroll';
+import { Link, Outlet } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -46,7 +45,7 @@ export default function Navbar() {
           <div className={`menuItems ${sidenav === true ? 'active' : ''}`}>
             <ul>
               <li>
-                <Link activeClass="active" to="home" spy={true} smooth={true} >
+                <Link activeClass="active" to="/" spy={true} smooth={true} >
                   Home
                 </Link>
               </li>
@@ -74,9 +73,9 @@ export default function Navbar() {
           </div>
         </nav>
       </div>
-      {/* <div className='container'>
+      <div className='container'>
         <Outlet/>
-      </div> */}
+      </div>
     </header>
   )
 }
