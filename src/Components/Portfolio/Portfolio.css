@@ -1,0 +1,51 @@
+.portfolio_wrapper{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 8rem 0 3rem;
+}
+.portfolio-card1 {
+    background-image: url(../../assets/portfolio/App-Landing-Page.png);
+}
+
+.portfolio-card2 {
+    background-image: url(../../assets/portfolio/Christmas-Landing-Page.png);
+}
+
+.portfolio-card3 {
+    background-image: url(../../assets/portfolio/Foodies.png);
+}
+
+.portfolio-card4 {
+    background-image: url(../../assets/portfolio/Ecommerce-Jewellery-Website.png);
+}
+
+
+.portfolio_wrapper .card {
+    height: 100%;
+    min-height: 350px;
+    overflow: hidden;
+    border: 1px solid var(--border-color-light);
+    cursor: pointer;
+    box-shadow: 0 0 16px 4px var(--bg-color);
+
+    @media(max-width:992px) {
+        min-height: 400px;
+    }
+
+    @media(max-width:767px) {
+
+        min-height: 500px;
+    }
+}
+
+.portfolio_wrapper .card span {
+    transition: background-position 4s ease-in-out 0s;
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+}
+
+.portfolio_wrapper .card:hover span {
+    background-position: bottom center;
+}

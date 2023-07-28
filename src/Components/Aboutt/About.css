@@ -1,0 +1,102 @@
+.about-wrapper{
+    padding: 8rem 0 3rem;
+}
+.about-wrapper ul.nav-pills{
+    border: 1px solid var(--border-color-light);
+    border-radius: 3.125rem;
+}
+.about-wrapper ul li .nav-link{
+    border-radius: 3.125rem;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.45s cubic-bezier(0,0,0,0.2);
+    display: inline-block;
+    color: var(--font-color);
+    border: 0;
+}
+.about-wrapper ul li .nav-link.active{
+    background-color: var(--primary-color);
+}
+.about-wrapper .single-progress{
+    margin-top: 1.625rem;
+    position: relative;
+    overflow: hidden;
+}
+.about-wrapper .single-progress .progress{
+    height: 4px;
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: var(--white-color);
+    overflow: visible;
+}
+.about-wrapper .single-progress .progress-bar{
+background-color: var(--secondary-color);
+}
+.about-wrapper .single-progress h6{
+    text-align: left;
+
+}
+.about-wrapper .single-progress .label{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--font-color);
+    font-size: .9375rem;
+    
+}
+.about-wrapper .tab-pane li{
+    color: var(--font-color);
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-weight: 300;
+    list-style: none;
+}
+.about-wrapper .tab-pane li a{
+    font-weight: 500;
+    display: block;
+    color: var(--font-color);
+}
+.about-wrapper .tab-pane li span{
+    color: var(--secondary-color);
+}
+@media(max-width:992px) {
+    .about-wrapper ul.nav-pills{
+        width: 61%;
+        margin: auto;
+    }    
+    .about-wrapper ul li .nav-link{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:767px) {
+    .about-wrapper ul.nav-pills{
+        width: 100%;
+    }
+}
+.about_img {
+    &:after {
+        overflow: hidden;
+        content: '';
+        z-index: 1;
+        position: absolute;
+        top: -70px;
+        right: -70px;
+        max-width: 100%;
+    }
+
+    @media(max-width:1024px) {
+        &:after {
+            right: 0;
+        }
+    }
+
+    & img {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 2.1492rem;
+    }
+
+}
