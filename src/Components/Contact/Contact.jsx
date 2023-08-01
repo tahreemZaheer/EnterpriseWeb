@@ -10,9 +10,7 @@ export const Contact = () => {
                 <span className='subtitle'>My Complete Project </span>
                         <h2>Let’s Talk.</h2></div>
                     <div className="col-lg-6 order-1 order-lg-1 pe-lg-5 text-lg-start text-center">
-                        {/* <span className='subtitle'>My Complete Project </span>
-                        <h2>Let’s Talk.</h2> */}
-                        
+                                                
                         <form>
                             <div className="mb-4">
                                 <input type='text' className='form-control' placeholder='Your Name...' autoComplete='off' />

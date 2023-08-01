@@ -2,8 +2,7 @@ import React, {useState,useEffect} from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { Link, Outlet } from 'react-router-dom';
-import { Footer } from '../Footer/Footer';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -36,7 +35,6 @@ export default function Navbar() {
           <div className='navbar_brand'>
             <a href='/' >
               <h4>Trident Services</h4>
-              {/* <img src={logo} alt='Logo' /> * add logo */}
             </a>
           </div>
 
@@ -74,8 +72,6 @@ export default function Navbar() {
           </div>
         </nav>
       </div>
-      
-        {/* <Outlet/> */}
       
     </header>
   )
