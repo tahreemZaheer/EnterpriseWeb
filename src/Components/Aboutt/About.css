@@ -1,5 +1,6 @@
 .about-wrapper{
     padding: 8rem 0 3rem;
+    background: url(../../assets/home/banner.png);
 }
 .about-wrapper ul.nav-pills{
     border: 1px solid var(--border-color-light);

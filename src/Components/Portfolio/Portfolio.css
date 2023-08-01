@@ -1,8 +1,10 @@
-.portfolio_wrapper{
+.portfolio_wrapper {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 8rem 0 3rem;
+    background: url(../../assets/home/banner.png);
 }
+
 .portfolio-card1 {
     background-image: url(../../assets/portfolio/App-Landing-Page.png);
 }
@@ -19,6 +21,40 @@
     background-image: url(../../assets/portfolio/Ecommerce-Jewellery-Website.png);
 }
 
+.title_heading {
+    text-align: center;
+    max-width: 60rem;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 3rem;
+
+    & h3 {
+        width: 90%;
+        font-size: 2.5rem;
+        line-height: 3.214rem;
+        font-weight: 700;
+        color: var(--white-color);
+        margin-bottom: 0;
+
+        @media(max-width:767px) {
+            width: 100%;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+        }
+    }
+
+    & p {
+        width: 90%;
+        font-size: 1.214rem;
+        line-height: 2rem;
+        color: var(--font-color);
+
+        @media(max-width:767px) {
+            width: 100%;
+        }
+    }
+}
 
 .portfolio_wrapper .card {
     height: 100%;

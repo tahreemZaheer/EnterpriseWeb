@@ -5,15 +5,10 @@ export const Portfolio = () => {
   return (
     <section id='portfolio' className="portfolio_wrapper">
         <div className="container">
-            <div className="row">
-                <div className="col-sm-12 text-center mb-4">
-                    <span className='subtitle'>My Complete projects</span>
-                    <h2>My Latest Projects</h2>
-                    <p>
-                        The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled.
-                        <br className='d-none d-md-block'></br>
-                        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
-                        </p>
+            <div className="row">                
+                <div className="title_heading">                    
+                    <h3>My Latest Projects</h3>
+                    <p>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled.</p>
                 </div>
             </div>
             <div className="row">

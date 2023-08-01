@@ -13,7 +13,7 @@ import { Portfolio } from './Components/Portfolio/Portfolio.jsx';
 import { Contact } from './Components/Contact/Contact.jsx';
 const routes = createBrowserRouter([{
   path:'/',
-  element:<Navbar/>,
+  element:<App/>,
   children:[{
     path:'',
     element:<Home/>,

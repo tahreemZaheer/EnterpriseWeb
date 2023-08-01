@@ -3,6 +3,7 @@ import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link, Outlet } from 'react-router-dom';
+import { Footer } from '../Footer/Footer';
 
 
 export default function Navbar() {
@@ -45,27 +46,27 @@ export default function Navbar() {
           <div className={`menuItems ${sidenav === true ? 'active' : ''}`}>
             <ul>
               <li>
-                <Link activeClass="active" to="/" spy={true} smooth={true} >
+                <Link  to="/">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="about" spy={true} smooth={true} >
+                <Link to="about">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="services" spy={true} smooth={true} >
+                <Link to="services">
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="portfolio" spy={true} smooth={true} >
+                <Link to="portfolio" >
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link to="contact" spy={true} smooth={true} >
+                <Link to="contact">
                   Contact Us
                 </Link>
               </li>
@@ -73,9 +74,9 @@ export default function Navbar() {
           </div>
         </nav>
       </div>
-      <div className='container'>
-        <Outlet/>
-      </div>
+      
+        {/* <Outlet/> */}
+      
     </header>
   )
 }

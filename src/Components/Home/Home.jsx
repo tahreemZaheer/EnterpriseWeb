@@ -7,10 +7,6 @@ import { faChartLine, faShieldHalved, faChartArea } from '@fortawesome/free-soli
 
 export const Home = () => {
 
-    //font Awesome Icon 
-    const chartLineIcon = <FontAwesomeIcon icon={faChartLine} />
-    const shieldHalved = <FontAwesomeIcon icon={faShieldHalved} />
-    const chartArea = <FontAwesomeIcon icon={faChartArea} />
     return (
         <section id='home'>
             {/* managing background animation here */}
@@ -20,7 +16,7 @@ export const Home = () => {
             <div className='container'>
                 <div className='banner_outer'>
                     <div className='col'>
-                        <h5 className='name'>I'm <span>Tahreem Zaheer</span></h5>
+                        <h5 className='name'>I'm <span className='multitext'>Tahreem Zaheer</span></h5>
                         <h3 className='title'>
                             I'm a <span> Web Developer </span>
                         </h3>
@@ -35,18 +31,7 @@ export const Home = () => {
                         <div className='sub_banner_image'>
                             <img src={profile} alt='Tahreem Zaheer' />
                         </div>
-                        {/* <div className='banner_style_1'>
-                            {chartLineIcon}
-                            <h4>Business Design</h4>
-                        </div>
-                        <div className='banner_style_1 banner_style_2'>
-                            {shieldHalved}
-                            <h4>99.9% Success</h4>
-                        </div>
-                        <div className='banner_style_1 banner_style_3'>
-                            {chartArea}
-                            <h4>Business Design</h4>
-                        </div> */}
+                        
                     </div>
                 </div>
             </div>

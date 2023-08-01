@@ -1,14 +1,15 @@
 .footer{
+    margin-top: 2rem;
     background-color: var(--dark-layer-color);
     padding: 2rem;
     text-align: center;
     border-top: .0714rem solid var(--border-color-light);
 
-    &p{
+    & p{
         color: var(--white-color);
         text-align: center;
 
-        &a{
+        & a{
             color: var(--primary-color);
         }
     }

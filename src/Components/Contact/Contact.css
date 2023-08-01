@@ -9,6 +9,7 @@
 }
 .contact_wrapper{
     padding: 8rem 0 3rem;
+    background: url(../../assets/home/banner.png);
 }
 .contact_wrapper .form-control:hover, .contact_wrapper textarea:hover,
 .contact_wrapper .form-control:focus, .contact_wrapper textarea:focus

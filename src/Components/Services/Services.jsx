@@ -4,15 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faRocket,faDesktop,faPaintBrush,faPen,faQuidditch,faTabletAlt} from '@fortawesome/free-solid-svg-icons';
 
 export const Services = () => {
-const wordpressIcon = <FontAwesomeIcon icon={faPen} />
+
  //font Awesome Icon 
  const faDesktopIcon = <FontAwesomeIcon icon={faDesktop} />
  const faPaintBrushIcon = <FontAwesomeIcon icon={faPaintBrush} />
  const faRocketIcon = <FontAwesomeIcon icon={faRocket} />
-//  const fawordpressIcon = <FontAwesomeIcon icon={faWordpress} />
+ const wordpressIcon = <FontAwesomeIcon icon={faPen} />
  const faQuidditchIcon = <FontAwesomeIcon icon={faQuidditch} />
  const faTabletAltIcon = <FontAwesomeIcon icon={faTabletAlt} />
-//  const faWordpress = <FontAwesomeIcon icon={faWordpress} />
+
 
   return (
     <>

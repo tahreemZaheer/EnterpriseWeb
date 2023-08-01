@@ -61,14 +61,14 @@
         }
 
         .name{
-            width: 60%;
+            width: 80%;
             font-size: 2rem;
             line-height: 5rem;
             font-weight: 300;
             text-transform: uppercase;
             margin-bottom:1rem;
 
-            & span{
+            .multitext{
                 font-weight: 400;
                 color: orangered;
             }
@@ -82,7 +82,7 @@
             }
         }
         .title{
-            width: 80%;
+            width: 100%;
             font-size: 4rem;
             line-height: 5rem;
             font-weight: 200;
@@ -120,15 +120,12 @@
             }
         }
         .sub_banner_image{
-            /* background-color: var(--secondary-color); */
-            border-radius: 0 3rem;
-            
-
+            padding-left: 3rem;                 
             & img{
                 border-radius: 0 3.571rem;
-                /* margin-top:-2rem;
-                margin-left:-2rem; */
-                /* max-width: 130%; */
+                margin-top:-4rem;
+                margin-left:-2rem; 
+                max-width: 130%;
                 width: auto;
             }
 

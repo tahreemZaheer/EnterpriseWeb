@@ -5,9 +5,9 @@ export const Footer = () => {
   return (
     <>
     <section className='container'>
-      <Footer className="footer">
+      <div className='footer'>
         <p>All Rights Reserverd 2023 Designed By <a href='/'>Trident Services</a> </p>
-      </Footer>
+      </div>
     </section>
     </>
   )
